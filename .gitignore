@@ -1,33 +1,20 @@
-# http://www.gnu.org/software/automake
-
-Makefile.in
-/ar-lib
-/mdate-sh
-/py-compile
-/test-driver
-/ylwrap
-
-# http://www.gnu.org/software/autoconf
-
+/*.bin
+/*.gz
+/*.m4
+/*.pc
+/INSTALL
+/Makefile
+/Makefile.in
+/ap_include.am
 /autom4te.cache
-/autoscan.log
-/autoscan-*.log
-/aclocal.m4
-/compile
-/config.guess
-/config.h.in
-/config.sub
+/config.log
+/config.status
 /configure
-/configure.scan
-/depcomp
 /install-sh
 /missing
-/stamp-h1
-
-# https://www.gnu.org/software/libtool/
-
-/ltmain.sh
-
-# http://www.gnu.org/software/texinfo
-
-/texinfo.tex
+/modes
+/*.mode
+/.deps
+/config.in
+/config
+/*.prob
