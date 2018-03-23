@@ -5,16 +5,13 @@
 
   <mode name="tlh-swe" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc -w">
-        <file name="tlh-swe.automorf.bin"/>
+      <program name="hfst-proc -w">
+        <file name="tlh-swe.automorf.hfst"/>
       </program>
 
 
       <program name="cg-proc -w">
         <file name="tlh-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tlh-swe.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -79,13 +76,10 @@
         <file name="apertium-tlh-swe.swe-tlh.t3x"/>
         <file name="swe-tlh.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="hfst-proc $1">
         <file name="swe-tlh.autogen.bin"/>
       </program>
 
-      <program name="lt-proc -p">
-        <file name="swe-tlh.autopgen.bin"/>
-      </program>
     </pipeline>
   </mode>
 </modes>
