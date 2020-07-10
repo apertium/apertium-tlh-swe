@@ -77,7 +77,7 @@
         <file name="swe-tlh.t3x.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="swe-tlh.autogen.bin"/>
+        <file name="swe-tlh.autogen.hfst"/>
       </program>
 
     </pipeline>
