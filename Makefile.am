@@ -204,6 +204,8 @@ clean-local:
 ## Test
 ###############################################################################
 
+check: test
+
 test: all
 	echo "house" | apertium -d . tlh-swe | tee .test-mt
 	@echo "house" > .test-ref
