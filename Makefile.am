@@ -207,11 +207,11 @@ clean-local:
 check: test
 
 test: all
-	echo "house" | apertium -d . tlh-swe | tee .test-mt
-	@echo "house" > .test-ref
+	echo "juH qach" | apertium -d . tlh-swe | tee .test-mt
+	@echo "hus" > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . swe-tlh | tee .test-mt
-	@echo "house" > .test-ref
+	echo "hus" | apertium -d . swe-tlh | tee .test-mt
+	@echo "juH qach" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
