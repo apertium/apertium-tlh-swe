@@ -207,11 +207,4 @@ clean-local:
 check: test
 
 test: all
-	echo "juH qach" | apertium -d . tlh-swe | tee .test-mt
-	@echo "hus" > .test-ref
-	@diff .test-ref .test-mt
-	echo "hus" | apertium -d . swe-tlh | tee .test-mt
-	@echo "juH qach" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-
+	apertium-regtest test

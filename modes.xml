@@ -10,7 +10,7 @@
       </program>
 
 
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1 -n">
         <file name="tlh-swe.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>

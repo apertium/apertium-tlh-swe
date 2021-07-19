@@ -1,0 +1,10 @@
+{
+    "swe-tlh": {
+        "input": "swe-tlh-input.txt",
+        "mode": "swe-tlh"
+    },
+    "tlh-swe": {
+        "input": "tlh-swe-input.txt",
+        "mode": "tlh-swe"
+    }
+}
